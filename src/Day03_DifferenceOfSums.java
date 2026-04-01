@@ -7,11 +7,10 @@
 //num2: The sum of all integers in the range [1, n] (both inclusive) that are divisible by m.
 //Return the integer num1 - num2.
 
-public class Day3_DifferenceOfSums {
+public class Day03_DifferenceOfSums {
     public static void main(String[] args) {
         System.out.println(differenceOfSums(10,3));
     }
-
         public static int differenceOfSums(int n, int m) {
             int num1=0,num2=0;
             for(int i=1;i<=n;i++){
