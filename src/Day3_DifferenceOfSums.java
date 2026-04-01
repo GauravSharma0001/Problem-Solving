@@ -11,6 +11,7 @@ public class Day3_DifferenceOfSums {
     public static void main(String[] args) {
         System.out.println(differenceOfSums(10,3));
     }
+
         public static int differenceOfSums(int n, int m) {
             int num1=0,num2=0;
             for(int i=1;i<=n;i++){
