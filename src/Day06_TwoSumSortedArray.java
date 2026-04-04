@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 public class Day06_TwoSumSortedArray {
     public static void main(String[] args) {
-        int[] res = twoSum(new int[]{1,2,3,4,5,6},5);
+        int[] res = twoSum(new int[]{1,2,3,4,5,6,7},5);
         System.out.println(Arrays.toString(res));
     }
     public static int[] twoSum(int[] numbers, int target) {
