@@ -23,6 +23,8 @@ public class Day12_K_Radius_Subarray_Averages {
         }
         int window=2*k+1;
         if(window>n) return res;
+
+//Make sure to make sum to long as its value may exceed the limit if int is used
         long sum=0;
         for(int i=0; i<window;i++){
             sum+=nums[i];
